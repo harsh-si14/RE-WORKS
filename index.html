@@ -13,21 +13,34 @@
     <header id="Header" >
         
       <div id="logo">
-       Logo
+        <a href="#" class="brand">
+          <span style="color:blue ; font-family: 'Times New Roman', Times, serif; font-size:2.5rem;" >R</span>EW
+      </a>
+     
       </div>
       <nav>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="./About.html">About</a></li>
-            <li><a href="#">Product</a></li>
+            <li><a href="./products.html">Product</a></li>
             <li><a href="#">Contact us</a></li>
         </ul>
       </nav>
     </header>
     <div id="banner">
-        <h1 class="banner1"></h1>
+        <h1 class="banner1">
+          <div class="slideshow-container">
+            <img class="slide" src="https://tse4.mm.bing.net/th?id=OIP.nAJ-roIAv7q38PPU9LeoQQHaE7&pid=Api&P=0&h=180" alt="Image 1">
+            <img class="slide" src="https://tse4.mm.bing.net/th?id=OIP.B6mVB9cawLu8QxIWWk3JoAHaEK&pid=Api&P=0&h=180" alt="Image 2">
+            <img class="slide" src="https://tse2.mm.bing.net/th?id=OIP.onHx8mR7ytl4nRR6kSooWAHaEK&pid=Api&P=0&h=180" alt="Image 3">
+        
+            <a class="prev" onclick="previousSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+          </div>
+        </h1>
     </div>
-    <div class="Sec_1">Section 1</div>
+    <div class="Sec_1">  Section 1
+  </div>
 
     <section id="Sec1">
         <div class="circles"> circle 1</div>
@@ -57,6 +70,35 @@
     <footer>
         Footer
     </footer>
-    
+    <script>
+      var slides = document.getElementsByClassName("slide");
+      var currentSlide = 0;
+  
+      function showSlide(n) {
+        for (var i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[n].style.display = "block";
+      }
+  
+      function previousSlide() {
+        currentSlide--;
+        if (currentSlide < 0) {
+          currentSlide = slides.length - 1;
+        }
+        showSlide(currentSlide);
+      }
+  
+      function nextSlide() {
+        currentSlide++;
+        if (currentSlide >= slides.length) {
+          currentSlide = 0;
+        }
+        showSlide(currentSlide);
+      }
+  
+      // Automatically advance to the next slide every 3 seconds
+      setInterval(nextSlide, 3000);
+    </script>
 </body>
 </html>

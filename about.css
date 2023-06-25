@@ -1,0 +1,158 @@
+#aboutContent {
+    color: white;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+#aboutBox {
+   
+    background: url('https://rigourengineeringworks.site.live/img/manufacturer-zsHlg-okk50-qpi2t-9o8Op-QCvKd.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    display: flex;
+    padding: 50px 0;
+
+}
+
+#about .aboutImageBg #aboutBox {
+    background-color: transparent;
+}
+
+#aboutInfo {
+    padding: 40px;
+}
+
+#aboutTitle {
+    font-size: 40px;
+}
+
+#aboutSubtitle {
+    margin: 36px 0;
+    letter-spacing: .2em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.aboutParagraph {
+    line-height: 1.9;
+    letter-spacing: 0.1em;
+}
+
+.aboutImages {
+    width: 100%;
+    
+}
+
+#about .aboutImageBg .aboutImages {
+    border: 2px solid white;
+}
+
+#about .customTitle {
+    font-size: 30px;
+    display: block;
+}
+
+#about .customParagraph {
+    font-size: 14px;
+    line-height: 1.9;
+    letter-spacing: 0.1em;
+    display: block;
+}
+
+#about .customLink {
+    color: white;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+#about .customLink:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#about .customIcon {
+    font-size: 30px;
+}
+
+#about .customTitle,
+#about .customParagraph,
+#about .customLink,
+#about .customIcon,
+#about .customButton,
+#about .customImage,
+#about .customEmbed {
+    margin: 10px 0;
+}
+
+#about #aboutSubtitleWrap .customTitle,
+#about #aboutSubtitleWrap .customParagraph,
+#about #aboutSubtitleWrap .customLink,
+#about #aboutSubtitleWrap .customIcon,
+#about #aboutSubtitleWrap .customButton,
+#about #aboutSubtitleWrap .customImage,
+#about #aboutSubtitleWrap .customEmbed {
+    margin: 0 0 30px;
+}
+
+#about #aboutParagraphWrap .customTitle,
+#about #aboutParagraphWrap .customParagraph,
+#about #aboutParagraphWrap .customLink,
+#about #aboutParagraphWrap .customIcon,
+#about #aboutParagraphWrap .customButton,
+#about #aboutParagraphWrap .customImage,
+#about #aboutParagraphWrap .customEmbed {
+    margin: 10px 0 0;
+}
+
+#about #aboutImage1 .customTitle,
+#about #aboutImage1 .customParagraph,
+#about #aboutImage1 .customLink,
+#about #aboutImage1 .customIcon,
+#about #aboutImage1 .customButton,
+#about #aboutImage1 .customImage,
+#about #aboutImage1 .customEmbed {
+    margin: 20px 0 0;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    #aboutInfo {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #aboutContainer {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+     #aboutContent {
+        padding-bottom: 0 !important;
+    }
+
+    #aboutBox {
+        display: table;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .aboutParagraph {
+        line-height: 1.7;
+        letter-spacing: 0.05em;
+    }
+
+    #aboutImageOuter {
+        padding: 0 25px;
+    }
+
+    #aboutImage1 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}

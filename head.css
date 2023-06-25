@@ -1,0 +1,250 @@
+
+#headerContent {
+    color: white; 
+    overflow: hidden;
+    word-break: break-word;
+}
+
+#headerOuterRow {
+    display: flex;
+}
+
+.headerTextShadow {
+    text-shadow: 1px 1px rgb(162,57,203);
+}
+
+#firstWord {
+    border: 1px solid white;
+    font-size: 24px;
+    width: max-content;
+    padding: 4px 54px;
+    margin: 20px auto;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px rgb(162,57,203);
+    background-color: rgba(162,57,203, 0.3);
+    border-radius: 2px;
+    display: table;
+}
+
+#headerTitle {
+    font-size: 110px;
+    text-shadow: 2px 2px rgb(162,57,203);
+}
+
+#headerSubtitle {
+    font-size: 30px;
+    animation-delay: .3s;
+}
+
+#rightHeader {
+    text-align: center;
+}
+
+#leftHeader {
+    text-align: center;
+}
+
+#headerButtons {
+    margin-top: 40px;
+    animation-delay: .6s;
+}
+
+.headerButton {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 54px;
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px rgb(162,57,203);
+    text-shadow: 1px 1px rgb(162,57,203);
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.headerButton:hover {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translate3d(+45%,0,0);
+        -webkit-transform: translate3d(+45%,0,0);
+    }
+    
+    to {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.slideIn {
+    opacity: 0;
+    animation: slide-in 1s ease-out forwards;
+}
+
+header .customTitle {
+    font-size: 30px;
+    display: block;
+}
+
+header .customParagraph {
+    font-size: 20px;
+    display: block;
+}
+
+header .customLink {
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+header .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+header .customIcon {
+    font-size: 36px;
+}
+
+header .customTitle,
+header .customParagraph,
+header .customLink,
+header .customIcon {
+    margin: 10px 0;
+    text-shadow: 1px 1px rgb(162,57,203);
+} 
+
+header .customButton,
+header .customImage,
+header .customEmbed {
+    margin: 10px 0;
+}
+
+header #leftHeader .customTitle,
+header #leftHeader .customParagraph,
+header #leftHeader .customLink,
+header #leftHeader .customIcon, 
+header #leftHeader .customButton,
+header #leftHeader .customImage,
+header #leftHeader .customEmbed {
+    margin: 0;
+}
+
+header #headerTitleWrap .customTitle,
+header #headerTitleWrap .customParagraph,
+header #headerTitleWrap .customLink,
+header #headerTitleWrap .customIcon, 
+header #headerTitleWrap .customButton,
+header #headerTitleWrap .customImage,
+header #headerTitleWrap .customEmbed {
+    opacity: 0;
+    animation: slide-in 1s ease-out forwards;
+    animation-delay: .2s;
+    margin: 0;
+}
+
+header #headerSubtitleWrap .customTitle,
+header #headerSubtitleWrap .customParagraph,
+header #headerSubtitleWrap .customLink,
+header #headerSubtitleWrap .customIcon, 
+header #headerSubtitleWrap .customButton,
+header #headerSubtitleWrap .customImage,
+header #headerSubtitleWrap .customEmbed {
+    opacity: 0;
+    animation: slide-in 1s ease-out forwards;
+    animation-delay: .5s;
+    margin: 10px 0 0;
+}
+
+header #headerButtons .customTitle,
+header #headerButtons .customParagraph,
+header #headerButtons .customLink,
+header #headerButtons .customIcon, 
+header #headerButtons .customButton,
+header #headerButtons .customImage,
+header #headerButtons .customEmbed {
+    opacity: 0;
+    animation: slide-in 1s ease-out forwards;
+    animation-delay: .8s;
+    margin: 20px 0 0;
+}
+
+@media only screen and (max-width : 1100px) {
+
+    #headerTitle {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    #headerTitle {
+        font-size: 48px;
+    }
+
+    #headerSubtitle {
+        font-size: 22px;
+    }
+
+    #firstWord {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    #headerOuterRow {
+        display: initial;
+    }
+
+    .headerButton {
+        padding: 6px 40px;
+    }
+
+    header .customTitle {
+        font-size: 25px;
+    }
+
+    header .customParagraph {
+        font-size: 18px;
+    }
+
+    header .customLink a {
+        font-size: 18px;
+    }
+
+    header #leftHeader .customTitle,
+    header #leftHeader .customLink,
+    header #leftHeader .customIcon,
+    header #leftHeader .customButton,
+    header #leftHeader .customImage,
+    header #leftHeader .customEmbed {
+        margin: 10px 0 0;
+    } 
+     
+}
+
+
+          header {
+              background: url('https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: top;
+              background-attachment: fixed;
+          }
+          #headerLogoImage {
+              position: fixed;
+              left: 3%;
+              bottom: 10px;
+              width: 200px;
+              max-width: 30%;
+              z-index: 100;
+          }

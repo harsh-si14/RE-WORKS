@@ -342,7 +342,7 @@ header .customImage,
 }
 
 #footerFour {
-    width: 100%;
+    width: auto;
     text-align: center;
     background: rgb(50,50,50);
     color: white;

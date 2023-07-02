@@ -1,0 +1,166 @@
+#gallery {
+    color: black;
+}
+
+#gallery .galleryImageBg {
+    color: white;
+}
+
+#galleryContent {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#galleryTop {
+    background-color: rgb(162,57,203);
+    color: white;
+    border-radius: 10px;
+}
+
+#galleryTitle {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.categoryButtonContainer {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.categoryButton {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 32px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.categoryButton:hover,
+.categoryButton:focus {
+    color: rgb(162,57,203);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.categoryButtonSelected {
+    color: rgb(162,57,203);
+    background-color: white;
+    text-decoration: none;
+}
+
+.categoryFilter {
+    margin-top: 40px;
+}
+
+.galleryImages {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    display: block;
+    padding: 0 20px 0;
+}
+
+#gallery .galleryImageBg .galleryImages {
+    border: 1px solid white;
+}
+
+#fancybox-content {
+    background: white;
+}
+
+#fancybox-title-over {
+    font-size: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+#fancybox-title {
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+
+.zoom {
+    transition: .5s;
+}
+
+.transition {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); 
+}
+
+#fancybox-close {
+    right: -35px;
+}
+
+#fancybox-right {
+    right: -20px;
+}
+
+#fancybox-bg-nw,
+#fancybox-bg-ne,
+#fancybox-bg-sw,
+#fancybox-bg-se {
+    display: none;
+}
+
+/* * * * * * * * * */
+
+#gallery .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#gallery .customParagraph {
+    font-size: 18px;
+    display: block;
+}
+
+#gallery .customLink {
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#gallery .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#gallery .customIcon {
+    font-size: 32px;
+}
+
+#gallery .customTitle,
+#gallery .customParagraph,
+#gallery .customLink,
+#gallery .customIcon, 
+#gallery .customButton,
+#gallery .customImage,
+#gallery .customEmbed {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width : 800px) {
+
+    #galleryTop {
+        border-radius: 0;
+    }
+}
+                    
+@media only screen and (max-width : 767px) {
+
+    #galleryTitle {
+        font-size: 40px;
+    }
+
+    .categoryButton {
+        margin-top: 10px;
+    }
+}

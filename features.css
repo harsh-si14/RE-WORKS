@@ -1,0 +1,224 @@
+#features {
+    color: black;
+}
+
+#features .featuresImageBg {
+    color: white;
+}
+
+#featuresContent {
+    text-align: center;
+}
+
+#featuresTitleWrap {
+    margin-bottom: 30px;
+}   
+
+#featuresTitle {
+    font-size: 40px;
+}
+
+#featuresTitleHr {
+    border: 1px solid rgb(162,57,203);
+}
+
+#features .featuresImageBg #featuresTitleHr {
+    border-color: white;
+}
+
+#featuresSubtitleWrap {
+    margin: 30px 0 50px;
+}
+
+#featuresSubtitle {
+    font-size: 22px;
+    letter-spacing: .09em;
+}
+
+.features3 {
+    display: flex;
+}
+
+.featuresTemplate {
+    margin-top: 28px;
+}
+
+.featuresHeader {
+    font-size: 28px;
+}
+
+.featuresHr {
+    border: 3px double rgb(162,57,203);
+    width: 60%;
+}
+
+#features .featuresImageBg .featuresHr {
+    border-color: white;
+}
+
+.featuresIcon {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.featuresTextWrap {
+    margin: 18px auto;
+}
+
+.featuresTextWrap {
+    width: 60%;
+}
+
+#features .customTitle {
+    font-size: 40px;
+    display: block;
+}
+
+#features #featuresRowContainer .customTitle {
+    font-size: 28px;
+}
+
+#features .customParagraph {
+    font-size: 18px;
+    display: block;
+}
+
+#features #featuresRowContainer .customParagraph {
+    font-size: 14px;
+}
+
+#features .customLink {
+    color: black;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#features #featuresRowContainer .customLink {
+    font-size: 14px;
+}
+
+#features .featuresImageBg .customLink {
+    color: white;
+}
+
+#features .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#features .customIcon {
+    font-size: 32px;
+}
+
+#features .customTitle,
+#features .customParagraph,
+#features .customLink,
+#features .customIcon, 
+#features .customButton,
+#features .customImage,
+#features .customEmbed {
+    margin: 10px 0;
+}
+
+#features #featuresTitleWrap .customTitle,
+#features #featuresTitleWrap .customParagraph,
+#features #featuresTitleWrap .customEmbed {
+    margin: 15px 0 10px;
+}
+
+#features #featuresTitleWrap .customIcon, 
+#features #featuresTitleWrap .customButton,
+#features #featuresTitleWrap .customImage,
+#features #featuresTitleHrWrap .customIcon, 
+#features #featuresTitleHrWrap .customButton,
+#features #featuresTitleHrWrap .customImage,
+#features .featuresHeaderWrap .customIcon, 
+#features .featuresHeaderWrap .customButton  {
+    margin: 10px 0 0;
+}
+
+#features .featuresHeaderWrap .customTitle {
+    margin: 15px 0 0;
+}
+
+#features .featuresHrWrap .customTitle,
+#features .featuresHrWrap .customParagraph,
+#features .featuresHrWrap .customLink,
+#features .featuresHrWrap .customEmbed {
+    margin: 0 0 15px;
+}
+
+#features .featuresHrWrap .customIcon, 
+#features .featuresHrWrap .customButton,
+#features .featuresHrWrap .customImage {
+    margin: 0 0 20px;
+}
+
+#features .featuresIcons .customTitle,
+#features .featuresIcons .customParagraph,
+#features .featuresIcons .customLink,
+#features .featuresIcons .customEmbed {
+    margin: 15px 0 10px;
+}
+
+#features .featuresIcons .customIcon, 
+#features .featuresIcons .customButton,
+#features .featuresIcons .customImage {
+    margin: 20px 0 0;
+}
+
+#features .featuresTextWrap .customTitle,
+#features .featuresTextWrap .customParagraph,
+#features .featuresTextWrap .customLink,
+#features .featuresTextWrap .customIcon, 
+#features .featuresTextWrap .customButton,
+#features .featuresTextWrap .customImage,
+#features .featuresTextWrap .customEmbed {
+    margin: 0 0 10px;
+}
+
+@media only screen and (max-width : 1050px) {
+
+    .featuresHeader {
+        font-size: 22px;
+    }
+
+    #features #featuresRowContainer .customTitle {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    .featuresTextWrap {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+    .features3 {
+        display: initial;
+        margin: 0;
+    }
+
+    #featuresSubtitleWrap {
+        margin-bottom: 50px;
+    }
+
+    .featuresTemplate {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+
+    #featuresTitle {
+        font-size: 30px;
+    }
+
+    #features .customTitle {
+        font-size: 30px;
+    }
+}

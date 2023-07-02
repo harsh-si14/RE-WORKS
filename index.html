@@ -9,10 +9,10 @@
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-  <script src="https://heyleia.com/js/analytics.js"></script>
+ 
   <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://heyleia.com/css/sweetalert.css" rel="stylesheet">
-  <script src="https://heyleia.com/js/swal.min.js"></script>
+  <link href="./tero.css" rel="stylesheet">
+ 
   <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:800,800i&amp;display=swap" rel="stylesheet">
 
@@ -32,9 +32,8 @@
   <script>    
       $.browser = {}; $.support.opacity = true;
   </script>
-  <script src="/lib/fancybox/jquery.fancybox-1.3.4.pack.js?v=1687676214"></script>
-  <script src="/lib/fancybox/jquery.easing-1.3.pack.js"></script>
-  <script src="/lib/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+ 
+  
   <script src="./h1e.js">
    
   </script>
@@ -70,14 +69,14 @@
               
               
               <li class="menuItemLi">
-                  <a id="contactMenuItem" class="menuItemA" altonclick="null" href="#contact">Contact</a>
+                  <a href="#Sec2">Contact</a>
               </li>
               
               
               
               </ul>
               <ul class="nav navbar-nav" id="menuButtons">
-                  <li class="menuItemLi"><a class="menuItemButton" altonclick="null" althref="null">Contact Us</a></li>
+                  <li class="menuItemLi"><a class="menuItemButton" altonclick="null" althref="null" href="#Sec2">Contact Us</a></li>
               </ul>
           </div>
       </div>
@@ -252,232 +251,7 @@
           </div>
       </div>
   </div>
-  <style>
-      #features {
-          color: black;
-      }
-
-      #features .featuresImageBg {
-          color: white;
-      }
-
-      #featuresContent {
-          text-align: center;
-      }
-
-      #featuresTitleWrap {
-          margin-bottom: 30px;
-      }   
-
-      #featuresTitle {
-          font-size: 40px;
-      }
-
-      #featuresTitleHr {
-          border: 1px solid rgb(162,57,203);
-      }
-
-      #features .featuresImageBg #featuresTitleHr {
-          border-color: white;
-      }
-
-      #featuresSubtitleWrap {
-          margin: 30px 0 50px;
-      }
-
-      #featuresSubtitle {
-          font-size: 22px;
-          letter-spacing: .09em;
-      }
-
-      .features3 {
-          display: flex;
-      }
-
-      .featuresTemplate {
-          margin-top: 28px;
-      }
-
-      .featuresHeader {
-          font-size: 28px;
-      }
-
-      .featuresHr {
-          border: 3px double rgb(162,57,203);
-          width: 60%;
-      }
-
-      #features .featuresImageBg .featuresHr {
-          border-color: white;
-      }
-
-      .featuresIcon {
-          font-size: 50px;
-          margin-top: 0;
-      }
-
-      .featuresTextWrap {
-          margin: 18px auto;
-      }
-
-      .featuresTextWrap {
-          width: 60%;
-      }
-
-      #features .customTitle {
-          font-size: 40px;
-          display: block;
-      }
-
-      #features #featuresRowContainer .customTitle {
-          font-size: 28px;
-      }
-
-      #features .customParagraph {
-          font-size: 18px;
-          display: block;
-      }
-
-      #features #featuresRowContainer .customParagraph {
-          font-size: 14px;
-      }
-
-      #features .customLink {
-          color: black;
-          font-size: 18px;
-          display: block;
-          width: 100%;
-      }
-
-      #features #featuresRowContainer .customLink {
-          font-size: 14px;
-      }
-
-      #features .featuresImageBg .customLink {
-          color: white;
-      }
-
-      #features .customLink:hover {
-          opacity: 0.6;
-          text-decoration: none;
-      }
-
-      #features .customIcon {
-          font-size: 32px;
-      }
-
-      #features .customTitle,
-      #features .customParagraph,
-      #features .customLink,
-      #features .customIcon, 
-      #features .customButton,
-      #features .customImage,
-      #features .customEmbed {
-          margin: 10px 0;
-      }
-
-      #features #featuresTitleWrap .customTitle,
-      #features #featuresTitleWrap .customParagraph,
-      #features #featuresTitleWrap .customEmbed {
-          margin: 15px 0 10px;
-      }
-
-      #features #featuresTitleWrap .customIcon, 
-      #features #featuresTitleWrap .customButton,
-      #features #featuresTitleWrap .customImage,
-      #features #featuresTitleHrWrap .customIcon, 
-      #features #featuresTitleHrWrap .customButton,
-      #features #featuresTitleHrWrap .customImage,
-      #features .featuresHeaderWrap .customIcon, 
-      #features .featuresHeaderWrap .customButton  {
-          margin: 10px 0 0;
-      }
-
-      #features .featuresHeaderWrap .customTitle {
-          margin: 15px 0 0;
-      }
-
-      #features .featuresHrWrap .customTitle,
-      #features .featuresHrWrap .customParagraph,
-      #features .featuresHrWrap .customLink,
-      #features .featuresHrWrap .customEmbed {
-          margin: 0 0 15px;
-      }
-
-      #features .featuresHrWrap .customIcon, 
-      #features .featuresHrWrap .customButton,
-      #features .featuresHrWrap .customImage {
-          margin: 0 0 20px;
-      }
-
-      #features .featuresIcons .customTitle,
-      #features .featuresIcons .customParagraph,
-      #features .featuresIcons .customLink,
-      #features .featuresIcons .customEmbed {
-          margin: 15px 0 10px;
-      }
-
-      #features .featuresIcons .customIcon, 
-      #features .featuresIcons .customButton,
-      #features .featuresIcons .customImage {
-          margin: 20px 0 0;
-      }
-
-      #features .featuresTextWrap .customTitle,
-      #features .featuresTextWrap .customParagraph,
-      #features .featuresTextWrap .customLink,
-      #features .featuresTextWrap .customIcon, 
-      #features .featuresTextWrap .customButton,
-      #features .featuresTextWrap .customImage,
-      #features .featuresTextWrap .customEmbed {
-          margin: 0 0 10px;
-      }
-
-      @media only screen and (max-width : 1050px) {
-
-          .featuresHeader {
-              font-size: 22px;
-          }
-
-          #features #featuresRowContainer .customTitle {
-              font-size: 22px;
-          }
-      }
-
-      @media only screen and (max-width : 800px) {
-
-          .featuresTextWrap {
-              width: 80%;
-          }
-      }
-
-      @media only screen and (max-width : 767px) {
-
-          .features3 {
-              display: initial;
-              margin: 0;
-          }
-
-          #featuresSubtitleWrap {
-              margin-bottom: 50px;
-          }
-
-          .featuresTemplate {
-              margin-top: 50px;
-          }
-      }
-
-      @media only screen and (max-width : 360px) {
-
-          #featuresTitle {
-              font-size: 30px;
-          }
-
-          #features .customTitle {
-              font-size: 30px;
-          }
-      }
-  </style>
+  <link rel="stylesheet" href="./features.css"/>
 </div>
           <style>
               #featuresContainer {
@@ -488,334 +262,7 @@
               background-attachment: fixed;
           }
           </style>
-      </section><section id="contact">
-          <div class="sectionOverlay" id="contactOverlay" style="background: rgba(0 ,0, 0, 0.5)"></div>
-          <div id="outerContact" class="outerSection noCustomElement">
-  <div id="contactContainer" class="sectionContainer contactImageBg noCustomElement" style="margin-bottom: 0px;">
-      <div id="contactContent" class="sectionContent container-fluid noCustomElement">
-          <div class="row noCustomElement">
-              <div id="contactTitleWrap" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                  <h2 id="contactTitle" class="contactTitles" altonclick="null" althref="null">Contact Us</h2>
-              </div>
-          </div>
-          <div id="contactInfoRow" class="row noCustomElement">
-              <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 noCustomElement" id="contactres">
-                  <div id="contactMainRow" class="row noCustomElement">
-                      <div class="outerGrid col-sm-6 col-xs-12 noCustomElement">
-                          <div class="innerGridTable noCustomElement">
-                              <div id="contactMapWrap" class="innerTableContent noCustomElement">
-                                  <div style="position: relative;"  id="conse"><iframe id="contactMap" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Unit%20No.%2093,
-                                    %20Aashapur%20Estate%20,%20Opp.%20Subhash%20Nagar%20Bus%20Stop%20,%20GMM%20Road%20Asalpha%20,%20Ghatkopar%20(W)%20,
-                                    %20Mumbai%20-%20400%20084+(%20%20Rigour%20Engineering%20work)&amp;t=&amp;z=14&amp;
-                                    ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/map-my-route/">Create a route on google maps</a></iframe></div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="outerGrid col-sm-6 col-xs-12 noCustomElement">
-                          <div class="innerGridTable noCustomElement">
-                              <div class="innerTableContent noCustomElement">
-                                  <div id="contactInfoTextWrap noCustomElement">
-                                      <div id="contactEmailWrap">singhrajkeshar@gmail.com <br> <br> 9004174071 , 8369960347</div>
-                                      <div id="contactPhoneNumber"><p id="contactPhoneInner" class="contactInfoText" altonclick="null" althref="null">
-                                        Unit No. 93, Aashapur Estate ,<br> Opp. Subhash Nagar Bus Stop ,<br>  GMM Road Asalpha , Ghatkopar (W) , Mumbai - 400 084</p></div>
-                                  </div>
-                                  <form id="contactForm"> 
-                                      <div id="contactRowContainer" class="noCustomElement" style="display:flex;">
-                                          <!-- inputTemplate start --><div class="input2 row" >
-                                              <div class="contactInputWrap contactTemplate form-group col-sm-6 col-xs-12 noCustomElement">
-                                                  <input id="contactName" type="text" class="contactFormInput form-control" placeholder="Name">
-                                              </div>
-                                              
-                                              <div class="contactInputWrap contactTemplate form-group col-sm-6 col-xs-12 noCustomElement">
-                                                  <input id="contactEmail" type="text" class="contactFormInput form-control" placeholder="Email">
-                                              </div>
-                                              </div><div class="input2 row">
-                                              <div class="contactInputWrap contactTemplate form-group col-sm-6 col-xs-12 noCustomElement">
-                                                  <input id="contactPhone" type="text" class="contactFormInput form-control" placeholder="Phone">
-                                              </div>
-                                              
-                                              <div class="contactInputWrap contactTemplate form-group col-sm-6 col-xs-12 noCustomElement">
-                                                  <input id="contactSubject" type="text" class="contactFormInput form-control" placeholder="Subject">
-                                              </div>
-                                              </div><!-- inputTemplate end -->
-                                      </div>
-                                      <div class="form-row row noCustomElement">
-                                          <div class="contactInputWrap form-group col-sm-12 col-xs-12 noCustomElement">
-                                              <textarea placeholder="Type Your Message Here" id="contactMessage" class="contactFormInput form-control"></textarea>
-                                          </div>
-                                      </div>
-                                      <div class="form-row row noCustomElement">
-                                          <div class="contactInputWrap form-group col-sm-12 col-xs-12 noCustomElement">
-                                              <div id="contactButtons"><a class="contactButton" althref="null" onclick="submitContactForm()">Submit</a></div>
-                                          </div>
-                                      </div>
-                                  </form>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <style>
-      #contact {
-          color: black;
-          
-      }
-      #contactSubject{
-        margin-top:10px;
-        margin-left: 20px;
-      }
-      #contactEmail{
-        margin-top:10px;
-      }
-      #contactPhone{
-        margin-left: 20px;
-      }
-      #contactMessage{
-        margin-top:10px;
-        width: 95%;
-      }
-
-      #contactButtons{
-        margin-top:10px;
-      }
-    
-
-      #contact .contactImageBg {
-          color: white;
-      }
-
-      #contactContent {
-          word-wrap: break-word;
-      }
-
-      #contactTitleWrap {
-          text-align: center;
-          margin-bottom: 60px;
-      }
-
-      #contactTitle {
-          font-size: 55px;
-      }
-
-      #contactMainRow {
-        display: flex;
-        justify-content: space-evenly;
-    /* align-items: center; */
-      }
-
-      #contactMap {
-          border-radius: 5px;
-          height: 400px;
-          width: 400px;
-          padding: 2px;
-          box-shadow: 0 2px 2px 2px rgb(162,57,203);
-      }
-
-      #contact .contactImageBg #contactMap {
-          box-shadow: 0 2px 2px 2px white;
-      }
-
-      .contactInfoText {
-          font-size: 16px;
-      }
-
-      #contactEmailInner {
-          margin: 0;
-      }
-
-      #contactEmailWrap,
-      #contactPhoneNumber {
-          text-align: center;
-      }
-
-      #contactPhoneNumber {
-          margin-bottom: 40px;
-      }
-
-      #contactPhoneInner {
-          margin-bottom: 0;
-      }
-
-      .contactFormInput {
-          border: none;
-          box-shadow: 0 2px 2px 1px rgb(162,57,203);
-          border-radius: 10px;
-          padding: 8px 10px;
-          /* width: 80%;
-          height: 30px; */
-         
-      }
-
-      .contactFormInput:hover {
-          background-color: rgba(162,57,203,0.1);
-      }
-
-      .contactFormInput::placeholder {
-          color: black;
-          
-      }
-
-      #contact .contactImageBg .contactFormInput {
-          box-shadow: 0 2px 2px 1px white;
-      }
-      
-      #contact .contactImageBg .contactFormInput:hover {
-          background-color: rgba(255,255,255,0.1);
-          color: white;
-      }
-
-      #contact .contactImageBg .contactFormInput:hover::placeholder {
-          color: white;
-      }
-
-      #contactMessage {
-          height: 90px;
-          resize: none;
-      }
-
-      #contactButtons {
-          text-align: right;
-      }
-
-      .contactButton {
-          color: black;
-          padding: 6px 42px;
-          border-radius: 25px;
-          box-shadow: 0 2px 2px 1px rgb(162,57,203);
-          text-decoration: none;
-          cursor: pointer;
-          transition: 0.5s;
-          display: inline-block;
-         
-      }
-
-      .contactButton:focus {
-          color: black;
-      }
-
-      .contactButton:hover {
-          color: white;
-          background-color: rgb(162,57,203);
-          text-decoration: none;
-      }
-
-      #contact .contactImageBg .contactButton,
-      #contact .contactImageBg .contactButton:focus {
-          color: black;
-          background-color: white;
-          box-shadow: 0 2px 2px 1px white;
-      }
-
-      #contact .contactImageBg .contactButton:hover {
-          color: black;
-          opacity: 0.6;
-      }
-
-      /* * * * * * * * */
-
-      #contact .customTitle {
-          font-size: 40px;
-          display: block;
-      }
-
-      #contact .customParagraph {
-          font-size: 16px;
-          display: block;
-      }
-
-      #contact .customLink {
-          color: black;
-          font-size: 16px;
-          display: block;
-          width: 100%;
-      }
-
-      #contact .contactImageBg .customLink  {
-          color: white;
-      }
-
-      #contact .customLink:hover {
-          opacity: 0.6;
-          text-decoration: none;
-      }
-
-      #contact .customIcon {
-          font-size: 30px;
-      }
-
-      #contact .customTitle,
-      #contact .customParagraph,
-      #contact .customLink,
-      #contact .customIcon,
-      #contact .customButton,
-      #contact .customImage,
-      #contact .customEmbed {
-          margin: 10px 0;
-      }
-
-      #contact #contactTitleWrap .customIcon,
-      #contact #contactTitleWrap .customButton,
-      #contact #contactTitleWrap .customImage {
-          margin: 0 0 10px;
-      }
-
-      @media only screen and (max-width : 767px) {
-
-          #contactTitleWrap {
-              margin-bottom: 30px;
-          }
-
-          #contactTitle {
-              font-size: 40px;
-          }
-
-          #contactMainRow {
-              display: initial;
-          }
-
-          #contactEmailInner {
-              margin-top: 30px;
-          }
-
-          .contactFormInput {
-              border: 1px solid rgb(162,57,203);
-          }
-
-          #contactButtons {
-              text-align: center;
-              margin-top: 20px;
-          }
-          #contact{
-            display: flex;
-         
-          }
-          #contactres{
-           padding-left: 10%;
-            width: 100px;
-          }
-          
-      }
-      @media only screen and (max-width : 480px) {
-        
-       #conse{
-        max-width: 100px;
-       }
-
-}
-  </style>
-</div>
-          <style>
-              #contactContainer {
-              background: url('xyx/contact.jpg');
-              background-repeat: no-repeat;
-              background-size: cover;
-              background-position: center;
-              background-attachment: fixed;
-          }
-          </style>
+      </section>
       </section><section id="gallery"><script>
               // script start 
               $.browser = {}; $.support.opacity = true;
@@ -892,225 +339,9 @@
           </div>
       </div>
   </div>
-  <style>
-      #gallery {
-          color: black;
-      }
-
-      #gallery .galleryImageBg {
-          color: white;
-      }
-
-      #galleryContent {
-          word-wrap: break-word;
-          text-align: center;
-      }
-
-      #galleryTop {
-          background-color: rgb(162,57,203);
-          color: white;
-          border-radius: 10px;
-      }
-
-      #galleryTitle {
-          font-size: 50px;
-          margin-bottom: 40px;
-      }
-
-      .categoryButtonContainer {
-          display: inline-block;
-          margin-bottom: 25px;
-      }
-
-      .categoryButton {
-          color: white;
-          border: 2px solid white;
-          border-radius: 10px;
-          cursor: pointer;
-          display: inline-block;
-          padding: 6px 32px;
-          margin: 0 10px;
-          text-decoration: none;
-          transition: 0.5s;
-      }
-
-      .categoryButton:hover,
-      .categoryButton:focus {
-          color: rgb(162,57,203);
-          background-color: white;
-          text-decoration: none;
-          border-radius: 10px;
-      }
-
-      .categoryButtonSelected {
-          color: rgb(162,57,203);
-          background-color: white;
-          text-decoration: none;
-      }
-
-      .categoryFilter {
-          margin-top: 40px;
-      }
-
-      .galleryImages {
-          height: 350px;
-          width: 350px;
-          object-fit: cover;
-          display: block;
-          padding: 0 20px 0;
-      }
-
-      #gallery .galleryImageBg .galleryImages {
-          border: 1px solid white;
-      }
-
-      #fancybox-content {
-          background: white;
-      }
-
-      #fancybox-title-over {
-          font-size: 20px;
-          text-align: center;
-          background: white;
-          color: black;
-      }
-
-      #fancybox-title {
-          margin-left: 0 !important;
-          padding: 0 !important;
-      }
-
-      .zoom {
-          transition: .5s;
-      }
-
-      .transition {
-          transform: scale(1.05);
-          -webkit-transform: scale(1.05); 
-      }
-
-      #fancybox-close {
-          right: -35px;
-      }
-
-      #fancybox-right {
-          right: -20px;
-      }
-
-      #fancybox-bg-nw,
-      #fancybox-bg-ne,
-      #fancybox-bg-sw,
-      #fancybox-bg-se {
-          display: none;
-      }
-
-      /* * * * * * * * * */
-
-      #gallery .customTitle {
-          font-size: 40px;
-          display: block;
-      }
-
-      #gallery .customParagraph {
-          font-size: 18px;
-          display: block;
-      }
-
-      #gallery .customLink {
-          color: white;
-          font-size: 18px;
-          display: block;
-          width: 100%;
-      }
-
-      #gallery .customLink:hover {
-          opacity: 0.6;
-          text-decoration: none;
-      }
-
-      #gallery .customIcon {
-          font-size: 32px;
-      }
-
-      #gallery .customTitle,
-      #gallery .customParagraph,
-      #gallery .customLink,
-      #gallery .customIcon, 
-      #gallery .customButton,
-      #gallery .customImage,
-      #gallery .customEmbed {
-          margin: 10px 0;
-      }
-
-      @media only screen and (max-width : 800px) {
-
-          #galleryTop {
-              border-radius: 0;
-          }
-      }
-                          
-      @media only screen and (max-width : 767px) {
-
-          #galleryTitle {
-              font-size: 40px;
-          }
-
-          .categoryButton {
-              margin-top: 10px;
-          }
-      }
-  </style><script>
-  // script start
-      var setCategoryClicks = function() {
-          $(".categoryButton").unbind();
-          $('.categoryButton').click(function(){
-              // let offsetHeight = document.getElementById('galleryRowContainer').offsetHeight.toString() + 'px';
-              var value = $(this).attr('data-filter');
-              // $('#galleryRowContainer').css({'min-height':offsetHeight}); 
-
-              // setTimeout(function(){
-              //     $('#galleryRowContainer').animate({'min-height':'0'});
-              // },3000)
-
-              if (value === 'all') {
-                  $('.categoryFilter').show('1000');
-                  $(this).addClass('categoryButtonSelected');
-                  $('.categoryButton').not(this).removeClass('categoryButtonSelected');
-              } else if ($(this).hasClass('categoryButtonSelected')) {
-                  $('.categoryFilter').show('1000');
-                  $(this).removeClass('categoryButtonSelected');
-                  $('.allCategoryButton').addClass('categoryButtonSelected');
-              }
-              else {
-                  $('.categoryFilter').not('.' + value).hide('3000');
-                  $('.categoryFilter').filter('.' + value).show('3000');
-                  $('.allCategoryButton').removeClass('categoryButtonSelected');
-                  $('.categoryButton').not(this).removeClass('categoryButtonSelected');
-                  $(this).toggleClass('categoryButtonSelected');
-              }
-          });
-          
-          $(".zoom").hover(function(){
-      
-              $(this).addClass('transition');
-          }, function(){
-              
-              $(this).removeClass('transition');
-          });
-
-          $("a[rel=scrollGroup]").fancybox({
-              'transitionIn'		: 'fade',
-              'transitionOut'		: 'fade',
-              'titlePosition' 	: 'inside',
-              'type'              : 'image',
-              'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
-                  return '<span id="fancybox-title-over">' + title + '';
-              }
-          });
-      }
-
-  // script end
-  </script></div>
+  <link href="./gallery.css" rel="stylesheet"> 
+<script src="./gallery.js"></script>
+</div>
           <style>
               #galleryContainer {
               background: rgb(255, 255, 255);
@@ -1119,7 +350,71 @@
               $(document).ready(function(){
                   setCategoryClicks();
               });
-          </script></section><div id="footer">
+          </script></section>
+                <h2 
+                style="text-align:center;   background-color: rgb(162,57,203);
+                color: white;font-size: 40px; display: block;
+                border-radius: 10px; width: 100% ; height: 100px;">Contact Us</h2>
+
+          <section id="Sec2"> 
+            
+       <main>
+        <div style="text-align:center; color:blue;font-size: 1rem;
+        font-style: normal;"><p>singhrajkeshar@gmail.com  ( 9004174071 , 8369960347)
+       
+            <br> Unit No. 93, Aashapur Estate , Opp. Subhash Nagar Bus Stop ,<br>  GMM Road Asalpha , Ghatkopar (W) , Mumbai - 400 084</p></div>
+        <div  ><iframe id="contactMap1" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Unit%20No.%2093,
+            %20Aashapur%20Estate%20,%20Opp.%20Subhash%20Nagar%20Bus%20Stop%20,%20GMM%20Road%20Asalpha%20,%20Ghatkopar%20(W)%20,
+            %20Mumbai%20-%20400%20084+(%20%20Rigour%20Engineering%20work)&amp;t=&amp;z=14&amp;
+            ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/map-my-route/">Create a route on google maps</a></iframe></div>
+      </div>
+       </main>
+      <aside>
+    
+        <form id="contactForm" onsubmit="submitForm(event)">
+            
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="contactNumber">Contact Number:</label>
+              <input type="tel" id="contactNumber" name="contactNumber" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+          
+      </aside>
+
+    </section>
+    <style>
+         #contactMap1 {
+          border-radius: 5px;
+          height: 400px;
+          width: 90%;
+          padding: 2px;
+          box-shadow: 0 2px 2px 2px rgb(162,57,203);
+      }
+    
+    
+    </style>
+    <link href="./index.css" rel="stylesheet">
+    <script src="./form.js"></script>
+    <div id="footer">
   <h4 class="pageFooter" id="footerFour" altonclick="null" althref="null">© Rigour Engineering work</h4>
   <style>
      @media only screen and (max-width : 767px) {

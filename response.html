@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="responseMessage"></div>
+    <script src="form.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+      // Retrieve form data from local storage
+      var formData = localStorage.getItem("formData");
+      if (formData) {
+        formData = JSON.parse(formData);
+        displayResponse(formData);
+      }
+    });
+    
+    function displayResponse(formData) {
+      var responseMessage = document.getElementById("responseMessage");
+      responseMessage.innerHTML = "Form submitted successfully!<br><br>" +
+        "<strong>Name:</strong> " + formData.name + "<br>" +
+        "<strong>Contact Number:</strong> " + formData.contactNumber + "<br>" +
+        "<strong>Email:</strong> " + formData.email
+    
+
+   
+  }
+    </script>
+</body>
+</html>

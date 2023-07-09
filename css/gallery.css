@@ -164,3 +164,14 @@
         margin-top: 10px;
     }
 }
+
+#galuo{
+    font-size:1.3rem ;
+    text-transform: capitalize;
+    font-family: sans-serif;;
+    background-color:whitesmoke;
+    margin-top: 10px;
+    z-index: 1px;
+    color: #0066b2;
+  
+}
